@@ -8,7 +8,8 @@ See original [documentation](https://www.npmjs.com/package/doctoc).
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Usage](#usage)
-    - [Options](#options)
+  - [Arguments](#arguments)
+  - [Options](#options)
 - [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -17,6 +18,13 @@ See original [documentation](https://www.npmjs.com/package/doctoc).
 
 ```shell
 curl -sSL https://finagin.github.io/doctoc | sh
+```
+
+### Arguments
+
+If you want use doctoc with arguments:
+```bash
+curl -sSL https://finagin.github.io/doctoc | sh -s -- README.md
 ```
 
 ### Options
