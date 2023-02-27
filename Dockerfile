@@ -1,8 +1,7 @@
-FROM node:latest
+FROM node:19.7-alpine3.16
 
-RUN mkdir -p /app
 WORKDIR /app
 
 RUN npm i -g doctoc
 
-ENTRYPOINT [ "doctoc", "." ]
+ENTRYPOINT [ "doctoc" ]
